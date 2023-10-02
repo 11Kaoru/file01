@@ -1,0 +1,115 @@
+body {
+  background-color: #ffc8b8;
+}
+
+h1 {
+  width: 250px;
+  /* margin: 30px; */
+  margin: 30px auto;
+  padding: 20px;
+  border: 5px solid rgb(192, 112, 92);
+  background-color: rgb(192, 112, 92);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 300%;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7) inset;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(249, 145, 119),
+    rgb(100, 60, 50)
+  );
+}
+
+/* h2 {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px double #653d1c;
+  border-left: 10px solid #653d1c;
+  color: #653d1c;
+} */
+.h {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px dotted #653d1c;
+  border-left: 10px solid #653d1c;
+  color: #653d1c;
+  /* border-radius: 5px 0 0 5px; */
+}
+
+section + section{
+  margin-top: 280px;
+}
+
+/* .imgR {
+  float: left;
+  margin-right: 20px;
+} */
+div.redcity {
+  margin: 5px;
+  float: left;
+  width: 300px;
+}
+
+div.redcity:hover {
+  border: 1px #777;
+}
+
+div.redcity img {
+  width: 100%;
+  height: auto;
+}
+.imgL {
+  float: right;
+  margin-left: 20px;
+}
+.clear {
+  clear: both;
+}
+
+.content-area {
+  width: 960px;
+  margin: 40px auto;
+  padding: 40px 80px;
+}
+
+header,
+nav,
+footer {
+  text-align: center;
+}
+
+.nav li {
+  list-style-type: none;
+  /* border: 1px solid #653d1c; */
+  display: inline-block;
+  width: 180px;
+  margin: 0 10px;
+}
+
+.nav a {
+  display: block;
+  padding: 10px;
+  background: #87310c;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: #ce7a56;
+  color: #fff;
+}
+
+a {
+  color: #df4839;
+}
+
+a:hover {
+  color: #ffa55b;
+  text-decoration: none;
+}
